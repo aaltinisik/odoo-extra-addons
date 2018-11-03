@@ -142,6 +142,7 @@ class StockWarehouseTransfer(models.Model):
         picking_vals = {
             'picking_type_id' : picking_type.id,
             'transfer' : self.id,
+            'partner_id': self.dest_warehouse.partner_id.id,
             'origin': self.name
         }
 

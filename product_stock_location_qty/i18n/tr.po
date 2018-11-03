@@ -1,0 +1,198 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* product_stock_location_qty
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-03 05:16+0000\n"
+"PO-Revision-Date: 2018-11-03 05:16+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,categ_id:0
+msgid "Category"
+msgstr "Kategori"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,company_id:0
+msgid "Company"
+msgstr "Şirket"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,date:0
+msgid "Date Planned"
+msgstr "Planlanan Tarih"
+
+#. module: product_stock_location_qty
+#: help:stock.product.location,uom_id:0
+msgid "Default Unit of Measure used for all stock operation."
+msgstr "Tüm stok operasyonları için öntanımlı ölçü birimi."
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,display_name:0
+msgid "Display Name"
+msgstr "Görünen Ad"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: product_stock_location_qty
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_form
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_tree
+msgid "Incoming"
+msgstr "Gelecek"
+
+#. module: product_stock_location_qty
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_form
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_tree
+msgid "Internal"
+msgstr "Dahili"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,__last_update:0
+msgid "Last Modified on"
+msgstr "Son değiştirilme"
+
+#. module: product_stock_location_qty
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_search
+#: field:stock.product.location,location_id:0
+#: field:stock.product.location,location_name:0
+msgid "Location"
+msgstr "Konum"
+
+#. module: product_stock_location_qty
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_tree
+msgid "Location Product Stock"
+msgstr "Ürün Stok Konumu"
+
+#. module: product_stock_location_qty
+#: model:ir.actions.act_window,name:product_stock_location_qty.stock_product_location_action
+#: model:ir.actions.act_window,name:product_stock_location_qty.stock_product_location_action_location_stock
+#: model:ir.actions.act_window,name:product_stock_location_qty.stock_product_tmpl_location_action_location_stock
+#: field:product.template,stock_product_location_ids:0
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_form
+msgid "Location Stock"
+msgstr "Stok Konumu"
+
+#. module: product_stock_location_qty
+#: field:product.product,stock_product_location_ids:0
+msgid "Location Stock "
+msgstr "Stok Konumu"
+
+#. module: product_stock_location_qty
+#: model:ir.actions.act_window,name:product_stock_location_qty.stock_product_location_action_location_stock_moves
+msgid "Location Stock - Moves"
+msgstr "Location Stock - Moves"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,min_qty:0
+msgid "Minimum Quantity"
+msgstr "En az Stok"
+
+#. module: product_stock_location_qty
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_form
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_tree
+msgid "Outgoing"
+msgstr "Gidecek"
+
+#. module: product_stock_location_qty
+#: model:ir.model,name:product_stock_location_qty.model_product_product
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_search
+#: field:stock.product.location,product_id:0
+msgid "Product"
+msgstr "Ürün"
+
+#. module: product_stock_location_qty
+#: model:ir.model,name:product_stock_location_qty.model_stock_product_location
+msgid "Product Location Stock"
+msgstr "Ürün Stok Konumu"
+
+#. module: product_stock_location_qty
+#: model:ir.model,name:product_stock_location_qty.model_product_template
+#: field:stock.product.location,product_tmpl_id:0
+msgid "Product Template"
+msgstr "Ürün Şablonu"
+
+#. module: product_stock_location_qty
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_form
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_tree
+msgid "Qty Backorder"
+msgstr "Bakiye Miktar"
+
+#. module: product_stock_location_qty
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_form
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_tree
+msgid "Qty Manual"
+msgstr "Elle Miktar"
+
+#. module: product_stock_location_qty
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_form
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_tree
+msgid "Qty On Hand"
+msgstr "Eldeki Miktar"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,qty_on_hand:0
+msgid "Quantity"
+msgstr "Quantity"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,qty_backorder:0
+msgid "Quantity Backorder"
+msgstr "Bakiye Miktar"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,qty_incoming:0
+msgid "Quantity Incoming"
+msgstr "Gelecek Miktar"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,qty_internal:0
+msgid "Quantity Internal"
+msgstr "Dahildeki Miktar"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,qty_manual:0
+msgid "Quantity Manual"
+msgstr "Elle Miktar"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,qty_multiple:0
+msgid "Quantity Multiple"
+msgstr "Çoklu Miktar"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,qty_outgoing:0
+msgid "Quantity Outgoing"
+msgstr "Gidecek Miktar"
+
+#. module: product_stock_location_qty
+#: help:stock.product.location,categ_id:0
+msgid "Select category for the current product"
+msgstr "Şimdiki ürün için kategori seçin"
+
+#. module: product_stock_location_qty
+#: view:product.product:product_stock_location_qty.product_form_view_procurement_button
+#: view:product.template:product_stock_location_qty.product_template_form_view_procurement_button
+msgid "Stock"
+msgstr "Stok"
+
+#. module: product_stock_location_qty
+#: view:stock.product.location:product_stock_location_qty.stock_product_location_view_search
+msgid "Stock Moves"
+msgstr "Stok Hareketleri"
+
+#. module: product_stock_location_qty
+#: field:stock.product.location,uom_id:0
+msgid "UoM"
+msgstr "UoM"
+

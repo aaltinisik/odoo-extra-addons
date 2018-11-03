@@ -1,0 +1,194 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* product_stock_move_qty
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-03 05:16+0000\n"
+"PO-Revision-Date: 2018-11-03 05:16+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,categ_id:0
+msgid "Category"
+msgstr "Kategori"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,company_id:0
+msgid "Company"
+msgstr "Şirket"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,date:0
+msgid "Date Planned"
+msgstr "Planlanan Tarih"
+
+#. module: product_stock_move_qty
+#: help:stock.move.location,uom_id:0
+msgid "Default Unit of Measure used for all stock operation."
+msgstr "Stok işemleri için öntanumlu ölçü birimi."
+
+#. module: product_stock_move_qty
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_search
+msgid "Delivered"
+msgstr "Teslim edilen"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,description:0
+msgid "Description"
+msgstr "Açıklama"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,display_name:0
+msgid "Display Name"
+msgstr "Görünen Ad"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,qty_incoming:0
+msgid "Incoming"
+msgstr "Gelecek"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,qty_internal:0
+msgid "Internal"
+msgstr "Dahili"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,__last_update:0
+msgid "Last Modified on"
+msgstr "Son güncelleme"
+
+#. module: product_stock_move_qty
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_search
+#: field:stock.move.location,location_id:0
+msgid "Location"
+msgstr "Konum"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,location_name:0
+msgid "Location Full Name"
+msgstr "Konum Tam adı"
+
+#. module: product_stock_move_qty
+#: model:ir.actions.act_window,name:product_stock_move_qty.stock_move_location_action_product_moves
+#: model:ir.actions.act_window,name:product_stock_move_qty.stock_move_location_action_product_tmpl_moves
+#: model:ir.model,name:product_stock_move_qty.model_stock_move_location
+msgid "Location Moves"
+msgstr "Konum Hareketleri"
+
+#. module: product_stock_move_qty
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_form
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_tree
+msgid "Location Product Moves"
+msgstr "Konum ürün Hareketleri"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,qty_manual:0
+msgid "Manual"
+msgstr "Elle"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,move_type:0
+msgid "Move Type"
+msgstr "Hareket Tipi"
+
+#. module: product_stock_move_qty
+#: view:product.product:product_stock_move_qty.product_form_view_procurement_button
+#: view:product.template:product_stock_move_qty.product_template_form_view_procurement_button
+msgid "Moves"
+msgstr "Hareketler"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,qty_outgoing:0
+msgid "Outgoing"
+msgstr "Gidecek"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,picking_id:0
+msgid "Packing"
+msgstr "Paketleme"
+
+#. module: product_stock_move_qty
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_search
+msgid "Picking"
+msgstr "Toplama"
+
+#. module: product_stock_move_qty
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_search
+#: field:stock.move.location,product_id:0
+msgid "Product"
+msgstr "Ürün"
+
+#. module: product_stock_move_qty
+#: model:ir.actions.act_window,name:product_stock_move_qty.stock_move_location_action
+msgid "Product Moves Location"
+msgstr "Konumdaki ürün hareketleri"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,product_tmpl_id:0
+msgid "Product Template"
+msgstr "Ürün Şablonu"
+
+#. module: product_stock_move_qty
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_tree
+msgid "Qty Incoming"
+msgstr "Gelecek Mik."
+
+#. module: product_stock_move_qty
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_tree
+msgid "Qty Internal"
+msgstr "Dahili Mik."
+
+#. module: product_stock_move_qty
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_tree
+msgid "Qty Manual"
+msgstr "Elle Miktar"
+
+#. module: product_stock_move_qty
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_tree
+msgid "Qty On Hand"
+msgstr "Eldeki Miktar"
+
+#. module: product_stock_move_qty
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_tree
+msgid "Qty Outgoing"
+msgstr "Gidecek Miktar"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,qty_on_hand:0
+msgid "Quantity"
+msgstr "Miktar"
+
+#. module: product_stock_move_qty
+#: help:stock.move.location,categ_id:0
+msgid "Select category for the current product"
+msgstr "şimdiki ürün için kategori seçin"
+
+#. module: product_stock_move_qty
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_search
+msgid "Stock Moves"
+msgstr "Stok Hareketleri"
+
+#. module: product_stock_move_qty
+#: field:stock.move.location,uom_id:0
+msgid "UoM"
+msgstr "UoM"
+
+#. module: product_stock_move_qty
+#: view:stock.move.location:product_stock_move_qty.stock_move_location_view_search
+#: field:stock.move.location,warehouse_id:0
+msgid "Warehouse"
+msgstr "Depo"
+
