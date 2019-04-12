@@ -69,15 +69,15 @@ class StockWarehouseTransferLine(models.Model):
     def _get_transfer_locations(self):
         for rec in self:
             rec.source_location = rec.transfer.source_warehouse.lot_stock_id.id
-            dest_location = False
-            transit_locations = self.env['stock.location'].search(
-                    [
-                        ('usage', '=', 'transit')
-                    ]
-            )
-            for location in transit_locations:
-                if location.get_warehouse(location) == rec.transfer.dest_warehouse.id:
-                    dest_location = location.id
+            dest_location = rec.transfer.dest_warehouse.transfer_location_id.id
+#             transit_locations = self.env['stock.location'].search(
+#                     [
+#                         ('usage', '=', 'transit')
+#                     ]
+#             )
+#             for location in transit_locations:
+#                 if location.get_warehouse(location) == rec.transfer.dest_warehouse.id:
+#                     dest_location = location.id
 
             if not dest_location:
                 rec.dest_location = rec.transfer.dest_warehouse.lot_stock_id.id
@@ -102,6 +102,7 @@ class StockWarehouseTransferLine(models.Model):
             'location_id' : self.source_location.id,
             'location_dest_id' : self.dest_location.id,
             'picking_id' : picking.id,
+            'picking_type_id': picking.picking_type_id.id,
             'group_id': group.id,
             'note': self.note
         }

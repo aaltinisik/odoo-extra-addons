@@ -2,6 +2,18 @@
 <openerp>
     <data>
 
+		<record id="stock_warehouse_form_inherit_transfer_location" model="ir.ui.view">
+			<field name="name">stock.warehouse.form.inherit.transfer_location</field>
+            <field name="model">stock.warehouse</field>
+            <field name="inherit_id" ref="stock.view_warehouse"/>
+            <field name="arch" type="xml">
+                <field name="wh_output_stock_loc_id" position="after">
+                	<field name="transfer_location_id"/>
+                </field>
+            </field>
+		
+		</record>
+
         <record id="stock_warehouse_transfer_view_tree" model="ir.ui.view">
             <field name="name">stock.warehouse.transfer.view.tree</field>
             <field name="model">stock.warehouse.transfer</field>
